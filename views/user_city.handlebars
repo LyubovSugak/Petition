@@ -1,0 +1,18 @@
+<div class="main-container">
+    <h1>We appreciate your support!</h1>
+    <div class="input-container">
+        <p class="reg-form">Signers from {{city}}</p> 
+          	{{#each usersCity}} 		
+          	{{#if profile_homepage}}
+            <div class="list-of-signers">
+          		<a href={{profile_homepage}}>{{user_first}} {{user_last}}&#160;</a><p>({{profile_age}})</p>
+            </div>
+          	{{else}} 
+            <div class="list-of-signers">
+          		<p>{{user_first}} {{user_last}}, ({{profile_age}})</p>
+            </div>
+          	{{/if}}
+          	{{/each}} 
+      </div>
+    }
+</div>

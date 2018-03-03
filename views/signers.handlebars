@@ -1,0 +1,21 @@
+<div class="main-container">
+	<h1>Share with your friends!</h1>
+  	<div class="input-container">
+  		<p class="reg-form">List of signers:</p>
+            {{#each signersInfo}}
+          		{{#if profile_homepage}}
+                <div class="list-of-signers">
+                   <a href={{profile_homepage}}>{{user_first}} {{user_last}}&#160;</a> 
+                   <p>({{profile_age}},&#160;</p> 
+                   <a href="/user_city/{{profile_city}}"> {{profile_city}})</a>
+                </div>
+                {{else}} 
+                 <div class="list-of-signers">
+                   <p>{{user_first}} {{user_last}} ({{profile_age}},&#160;</p>
+                   <a href="/user_city">{{profile_city}})</a>
+                </div>
+                {{/if}}
+            {{/each}} 
+        
+    </div>
+</div>

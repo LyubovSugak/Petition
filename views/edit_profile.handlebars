@@ -1,0 +1,17 @@
+<div class="main-container">
+	<h1>Stay with us!</h1>
+	<div class="input-container">
+	<p class="reg-form">Edit your Profile</p>
+		<form method="POST" name="form" action="/edit_profile">
+			<input class="input" name="first" placeholder="First Name" value="{{profileInfo.user_first}}"></input>
+			<input class="input" name="last" placeholder="Last Name" value="{{profileInfo.user_last}}"></input>
+	        <input class="input" type="email" name="email" placeholder="Email Adsress" required value="{{profileInfo.user_email}}"></input>
+	        <input class="input" name="password" placeholder="Password"></input>
+	        <input class="input" name="age" placeholder="Age" value="{{profileInfo.profile_age}}"></input>
+	        <input class="input" name="city" placeholder="City" value="{{profileInfo.profile_city}}"></input>
+	        <input class="input" name="homepage" placeholder="Hamepage" value="{{profileInfo.profile_homepage}}"></input>
+	        <div class="button"><button id="update-profile" type="submit">UPDATE</button></div>
+	  	
+		</form>
+	</div>
+</div>

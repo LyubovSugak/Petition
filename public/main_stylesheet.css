@@ -1,0 +1,121 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+header {
+	height: 10vh;
+	background-color: #242424;
+	opacity: 0.8; 
+	display: flex;
+	align-items: center;
+}
+
+header a {
+	text-decoration: none;
+	padding-left: 30px;
+	color: white;
+	transition: all 0.4s ease;
+    width: 200px;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+}
+header a:hover {
+	font-size: 20px;
+}
+
+.main-container {
+	background-image: url(/main-img.jpg);
+	background-size: 100%;
+	height: 90vh;
+}
+.main-container h1 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+}
+
+.reg-form {
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+.input-container {
+	height: 400px;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 20px;
+	padding-left: 30px;
+	background-color: #242424;
+	opacity: 0.8;
+}
+
+
+.input {
+	height: 40px;
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+.button {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#update-profile {
+	height: 25px;
+	background-color: black;
+	color: white;
+
+}
+
+.link {
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	transition: all 0.4s ease;
+    width: 300px;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+}
+
+.link:hover {
+	font-size: 30px;
+}
+
+
+.list-of-signers {
+	display: flex;
+	color: white;
+	margin-bottom: 20px;
+	font-size: 25px;
+	text-decoration: none;
+	transition: all 0.4s ease;
+    width: 300px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.list-of-signers a, p {
+	color: white;
+	text-decoration: none;
+}
+
+.list-of-signers a:hover {
+	font-size: 30px;
+}
+
+.canvas-img {
+	width: 400px;
+	height: 250px;
+	border-style: outset;
+	border-width: 3px;
+	border-color: white;
+	background-color: #ABABAB;
+}
+
